@@ -23,11 +23,11 @@ def compara(numero, otro_numero):
     resta = numero - otro_numero
     suma = otro_numero + (numero * -1)
     if resta > suma:
-        salida = "1" + " " + "El primero es mayor"
+        salida = "1 - El primero es mayor"
     elif suma > resta:
-        salida = "-1" + " " + "El segundo es mayor"
+        salida = "-1 - El segundo es mayor"
     else:
-        salida = "0" + " " + "Son iguales"
+        salida = "0 - Son iguales"
     return salida
 
 

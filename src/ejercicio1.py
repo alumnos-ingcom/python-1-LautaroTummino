@@ -1,5 +1,5 @@
 ################
-# Lautaro Tummino - @usuario_github
+# Lautaro Tummino - @LautaroTummino
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
@@ -43,11 +43,11 @@ def principal():
     (La entrada, la llamada al algoritmo y la salida)
     entrada1 = float(input("Ingrese los grados centigrados que quiere transformar
     a grados fahrenheit
-    convert = convertir_a_fahrrenheit(centigrados)
+    conver_centi = convertir_a_fahrrenheit(centigrados)
     salida= print(f"El número {entrada1} corresponde a {centi} grados centigrados")
     entrada2 = float(input("Ingere los grados fahrenheit que quiere transoformar a
     grados centigrados
-    convertor = convertir_a_centigrados(fahrenheit)
+    conver_fare = convertir_a_centigrados(fahrenheit)
     salida = print("El número {entrada2} corresponde a {fahre} grados fahrenheit")
     """
 
