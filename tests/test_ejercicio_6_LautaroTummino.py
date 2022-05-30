@@ -23,7 +23,7 @@ def test_ordenar_mayor_a_menor():
 def test_ordenar_menor_a_mayor():
     """
     Esta función se encarga de los testeos de la función del ejercicio 6 de
-    ordenar un número de mayor a menor
+    ordenar un número de menor a mayor
     """
     uno = 10
     dos = 5
