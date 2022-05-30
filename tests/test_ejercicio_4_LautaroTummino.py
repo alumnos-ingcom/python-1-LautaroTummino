@@ -10,7 +10,7 @@ from src.ejercicio4 import suma_lenta
 def test_suma_lenta_positivo():
     """
     Esta función se encarga de los testeos de la función del ejercicio 4 de
-    suma lenta
+    suma lenta para números positivos
     """
     numero = 15
     otro_numero = 25
@@ -23,7 +23,7 @@ def test_suma_lenta_positivo():
 def test_suma_lenta_negativo():
     """
     Esta función se encarga de los testeos de la función del ejercicio 4 de
-    suma lenta
+    suma lenta para números negativos
     """
     numero = -35
     otro_numero = 25
@@ -36,7 +36,7 @@ def test_suma_lenta_negativo():
 def test_suma_lenta_ceros():
     """
     Esta función se encarga de los testeos de la función del ejercicio 4 de
-    suma lenta
+    suma lenta para ceros
     """
     numero = 0
     otro_numero = 0
