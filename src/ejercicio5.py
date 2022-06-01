@@ -13,8 +13,8 @@ obtenga el valor del cociente y resto de dos números enteros.
 def division_lenta(dividendo, divisor):
     """
     Esta función se encarga de realizar una division lenta entre los
-    dos números ingresados.
-    Precondición: Ingrese dos números
+    dos números ingresados (SOLO NÚMEROS POSITIVOS :/ ).
+    Precondición: Ingrese dos números positivos
     Postcondicion: Muestrar el cociente y resto de la division. 
     """
     cociente = 0
@@ -31,7 +31,7 @@ def principal():
     dividendo = 8
     divisor = 2
     div_lenta = division_lenta(dividendo, divisor)
-    salida = print("El cociente de la division es {cociente} y el resto {dividendo}
+    salida = tupla con cociente y divisor (4, 0)
     """
 
 
