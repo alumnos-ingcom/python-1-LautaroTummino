@@ -20,10 +20,10 @@ def es_multiplo(numero, multiplo):
     while numero > 1:
         numero = numero - multiplo
     if numero == 0:
-        resultado=True
+        result=True
     else:
-        resultado=False
-    return resultado
+        result=False
+    return result
 
 
 def principal():
