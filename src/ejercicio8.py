@@ -13,7 +13,7 @@ def es_primo(numero):
     """
     Esta función se encarga de determinar si el número ingresado
     es o no es primo.
-    Precondición: Ingresar un número entero positivo
+    Precondición: Ingresar un número entero positivo mayor a 1
     Postcondición: Devolver True si es primo, False si no lo es
     """
     if numero > 1:
@@ -35,10 +35,11 @@ def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    entrada = 17
-    num_primo = es_primo(numero)
-    salida = "True"
     """
+    numero = int(input("Ingrese un número: "))
+    llamada_primo = es_primo(numero)
+    print(f"{llamada_primo}")
+    
 
 
 if __name__ == "__main__":

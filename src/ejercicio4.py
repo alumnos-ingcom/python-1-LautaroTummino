@@ -16,7 +16,7 @@ entero positivo y negativo.
 
 def suma_lenta(numero, otro_numero):
     """
-    Esta funcón se encargar de realizar una suma lenta, entre los
+    Esta función se encargar de realizar una suma lenta, entre los
     dos números ingresados.
     Precondición: Ingresar dos números
     Postcondición: Mostrar el resultado de la suma de ambos números.
@@ -36,11 +36,12 @@ def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    numero = int(input("Ingrese el primer número")
-    otro_numero = int(input("Ingrese el segundo número")
-    sumando = suma_lenta(numero, otro_numero)
-    salida = print(f"El resultado de la suma de ambos números es: {numero}
     """
+    numero = int(input("Ingrese el primer número: "))
+    otro_numero = int(input("Ingrese el segundo número: "))
+    sumando = suma_lenta(numero, otro_numero)
+    salida = print(f"El resultado de la suma de ambos números es: {sumando}")
+
 
 
 if __name__ == "__main__":

@@ -22,8 +22,8 @@ def convertir_a_fahrrenheit(centigrados):
     Precondición = Ingresar un número decimal
     Postcondición = Mostrar la conversion de ese número a grados fahrenheit
     """
-    centi = (centigrados * 1.8) + 32
-    return centi
+    centigrados = (centigrados * 1.8) + 32
+    return centigrados
 
 
 def convertir_a_centigrados(fahrenheit):
@@ -33,23 +33,23 @@ def convertir_a_centigrados(fahrenheit):
     Precondición = Ingresar un número decimal
     Postcondición = Mostrar la conversiion de ese número a grados centigrados
     """
-    fahre = (fahrenheit - 32) / (1.8)
-    return fahre
+    fahrenheit = (fahrenheit - 32) / (1.8)
+    return fahrenheit
 
 
 def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    entrada1 = float(input("Ingrese los grados centigrados que quiere transformar
-    a grados fahrenheit
-    conver_centi = convertir_a_fahrrenheit(centigrados)
-    salida= print(f"El número {entrada1} corresponde a {centi} grados centigrados")
-    entrada2 = float(input("Ingere los grados fahrenheit que quiere transoformar a
-    grados centigrados
-    conver_fare = convertir_a_centigrados(fahrenheit)
-    salida = print("El número {entrada2} corresponde a {fahre} grados fahrenheit")
     """
+    centigrados= float(input("Ingrese los grados centigrados que quiere transformar a grados fahrenheit: "))
+    llamada_fahre = convertir_a_fahrrenheit(centigrados)
+    salida= print(f"El número {centigrados} corresponde a {llamada_fahre} grados fahrenheit")
+                       
+    fahrenheit = float(input("Ingere los grados fahrenheit que quiere transoformar a grados centigrados: "))
+    llamada_centi = convertir_a_centigrados(fahrenheit)
+    salida = print(f"El número {fahrenheit} corresponde a {llamada_centi} grados centigrados")
+    
 
 
 if __name__ == "__main__":

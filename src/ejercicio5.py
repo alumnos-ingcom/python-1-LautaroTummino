@@ -28,11 +28,12 @@ def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    dividendo = 8
-    divisor = 2
-    div_lenta = division_lenta(dividendo, divisor)
-    salida = tupla con cociente y divisor (4, 0)
     """
+    dividendo = int(input("Ingrese el dividendo"))
+    divisor = int(input("Ingrese el divisor"))
+    div_lenta = division_lenta(dividendo, divisor)
+    print(f"{div_lenta}")
+    
 
 
 if __name__ == "__main__":

@@ -64,14 +64,20 @@ def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    entradas : uno=25    dos=15    tres=120
-    mayor_menor = ordenar_mayor_a_menor(uno, dos, tres)
-    salida : (120,25,15)
-    ---------------------------------------------------
-    entradas : uno = 155 dos = 125 tres = 0
-    menor_mayor = ordenar_menor_a_mayor(uno, dos, tres)
-    salida : (0,125,155)
     """
+    print("Ordenar de Mayor A Menor")
+    uno=int(input("Ingrese el primer número"))
+    dos=int(input("Ingrese el segundo número"))
+    tres=int(input("Ingrese el tercer número"))
+    mayor_menor = ordenar_mayor_a_menor(uno, dos, tres)
+    print(f"{mayor_menor}")
+    
+    print("Ordenar de Menor a Mayor")
+    uno=int(input("Ingrese el primer número"))
+    dos=int(input("Ingrese el segundo número"))
+    tres=int(input("Ingrese el tercer número"))
+    menor_mayor = ordenar_menor_a_mayor(uno, dos, tres)
+    print(f"{menor_mayor}")
 
 
 if __name__ == "__main__":

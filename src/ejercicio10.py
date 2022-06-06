@@ -21,20 +21,19 @@ def es_palindromo(texto):
     """
     
     if str(texto) == str(texto)[::-1]:
-        pali=True
+        return True
     else:
-        pali=False
-    return pali
+        return False
 
 
 def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    entrada = "neuquen"
-    frase_palindro = es_palindromo(texto)
-    salida = True
     """
+    texto = str(input("Ingrese una palabra: "))
+    frase_palindro = es_palindromo(texto)
+    print(f"{frase_palindro}")
 
 
 if __name__ == "__main__":

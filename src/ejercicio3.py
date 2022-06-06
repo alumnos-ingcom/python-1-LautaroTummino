@@ -35,11 +35,12 @@ def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    numero = 25
-    otro_numero = 15
-    compara_numeros = compara(numero, otro_numero)
-    salida = print(f"El número mayor es {salida}")
     """
+    numero = int(input("Ingrese un número: "))
+    otro_numero = int(input("Ingrese un otro número: "))
+    compara_numeros = compara(numero, otro_numero)
+    print(f"El número mayor es {compara_numeros}")
+    
 
 
 if __name__ == "__main__":

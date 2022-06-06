@@ -20,20 +20,21 @@ def es_multiplo(numero, multiplo):
     while numero > 1:
         numero = numero - multiplo
     if numero == 0:
-        result=True
+        return True
     else:
-        result=False
-    return result
+        return False
+
 
 
 def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    entrada : numero = 8  |  multiplo = 2
-    multi = es_multiplo(numero, multiplo)
-    salida : True
     """
+    numero = int(input("Ingrese un número: "))
+    multiplo = int(input("Ingrese el multiplo: "))
+    llamada_multi = es_multiplo(numero, multiplo)
+    print(f"{llamada_multi}")
 
 
 if __name__ == "__main__":

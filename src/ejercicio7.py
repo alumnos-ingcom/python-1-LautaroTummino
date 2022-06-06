@@ -18,7 +18,7 @@ def sexadecimal_a_decimal(horas,minutos,segundos):
     Precondición: Ingresar tres numeros para transformarlo en segundos
     Postcondicion: Muestra la cantidad de segundos equivalente a la hora ingresada
     """
-    segundo = 0
+    segundo=0
     while horas > 0:
         horas = horas -1
         minutos = minutos + 60
@@ -36,8 +36,8 @@ def decimal_a_sexadecimal(numero):
     Precondición: Ingresé un número para transformar en horas 
     Postcondición: Mostrar cantidad de horas, minutos, segundos.
     """
-    minutos = 0
-    horas = 0
+    horas=0
+    minutos=0
     while numero > 59:
         minutos = minutos + 1
         numero = numero - 60
@@ -51,15 +51,17 @@ def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    entrada=(1,0,0)
-    llamada_sexa_a_deci=sexadecimal_a_decimal(horas,minutos,segundos)
-    salida=print(f"La cantidad de segundos es {segundos}")
-  
-    entrada=3600
-    llamada_deci_a_sexa=decimal_a_sexadecimal(numero)
-    salida=print(f"La cantidad es {horas} horas, {minutos} minutos
-    y {numero} segundos")
     """
+    horas=int(input("Ingrese las horas: "))
+    minutos=int(input("Ingrese los minutos: "))
+    segundos=int(input("Ingrese los segundos: "))
+    llamada = sexadecimal_a_decimal(horas,minutos,segundos)
+    print(f"La cantidad de segundos es {llamada}")
+  
+    numero=int(input("Ingrese la cantidad de segundos: ")) 
+    llamada1 =_deci_a_sexa=decimal_a_sexadecimal(numero)
+    print(f"La cantidad es {llamada1}")
+    
 
 
 if __name__ == "__main__":
