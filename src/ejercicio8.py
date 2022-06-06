@@ -25,10 +25,9 @@ def es_primo(numero):
                 contador+=1
             divi+=1
         if contador ==0:
-            primo=True
+            return True
         else:
-            primo=False
-        return primo
+            return False
 
 
 def principal():
@@ -39,7 +38,6 @@ def principal():
     numero = int(input("Ingrese un número: "))
     llamada_primo = es_primo(numero)
     print(f"{llamada_primo}")
-    
 
 
 if __name__ == "__main__":

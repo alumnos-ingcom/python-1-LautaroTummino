@@ -33,7 +33,6 @@ def principal():
     divisor = int(input("Ingrese el divisor"))
     div_lenta = division_lenta(dividendo, divisor)
     print(f"{div_lenta}")
-    
 
 
 if __name__ == "__main__":

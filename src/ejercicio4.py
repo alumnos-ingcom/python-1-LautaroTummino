@@ -43,6 +43,5 @@ def principal():
     salida = print(f"El resultado de la suma de ambos números es: {sumando}")
 
 
-
 if __name__ == "__main__":
     principal()

@@ -35,7 +35,6 @@ def principal():
     numero = int(input("Ingrese un número"))
     llamada_signo = signo(numero)
     print(f"El numero {numero} es {llamada_signo}")
-    
 
 
 if __name__ == "__main__":

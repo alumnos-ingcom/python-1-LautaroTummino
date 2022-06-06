@@ -71,7 +71,6 @@ def principal():
     tres=int(input("Ingrese el tercer número"))
     mayor_menor = ordenar_mayor_a_menor(uno, dos, tres)
     print(f"{mayor_menor}")
-    
     print("Ordenar de Menor a Mayor")
     uno=int(input("Ingrese el primer número"))
     dos=int(input("Ingrese el segundo número"))

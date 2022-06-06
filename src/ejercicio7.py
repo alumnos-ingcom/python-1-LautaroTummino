@@ -56,12 +56,10 @@ def principal():
     minutos=int(input("Ingrese los minutos: "))
     segundos=int(input("Ingrese los segundos: "))
     llamada = sexadecimal_a_decimal(horas,minutos,segundos)
-    print(f"La cantidad de segundos es {llamada}")
-  
+    print(f"La cantidad de segundos es de: {llamada}") 
     numero=int(input("Ingrese la cantidad de segundos: ")) 
     llamada1 =_deci_a_sexa=decimal_a_sexadecimal(numero)
     print(f"La cantidad es {llamada1}")
-    
 
 
 if __name__ == "__main__":

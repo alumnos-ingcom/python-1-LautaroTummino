@@ -44,12 +44,10 @@ def principal():
     """
     centigrados= float(input("Ingrese los grados centigrados que quiere transformar a grados fahrenheit: "))
     llamada_fahre = convertir_a_fahrrenheit(centigrados)
-    salida= print(f"El número {centigrados} corresponde a {llamada_fahre} grados fahrenheit")
-                       
+    salida= print(f"El número {centigrados} corresponde a {llamada_fahre} grados fahrenheit")                       
     fahrenheit = float(input("Ingere los grados fahrenheit que quiere transoformar a grados centigrados: "))
     llamada_centi = convertir_a_centigrados(fahrenheit)
     salida = print(f"El número {fahrenheit} corresponde a {llamada_centi} grados centigrados")
-    
 
 
 if __name__ == "__main__":

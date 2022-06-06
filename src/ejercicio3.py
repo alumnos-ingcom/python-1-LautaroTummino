@@ -40,7 +40,6 @@ def principal():
     otro_numero = int(input("Ingrese un otro número: "))
     compara_numeros = compara(numero, otro_numero)
     print(f"El número mayor es {compara_numeros}")
-    
 
 
 if __name__ == "__main__":

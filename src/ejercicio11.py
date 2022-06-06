@@ -25,7 +25,6 @@ def es_multiplo(numero, multiplo):
         return False
 
 
-
 def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
