@@ -12,7 +12,7 @@ Escribir una función que indique con True si un numero indicado es primo.
 def es_primo(numero):
     """
     Esta función se encarga de determinar si el número ingresado
-    es o no es primo.
+    es o no es primo .
     Precondición: Ingresar un número entero positivo mayor a 1
     Postcondición: Devolver True si es primo, False si no lo es
     """

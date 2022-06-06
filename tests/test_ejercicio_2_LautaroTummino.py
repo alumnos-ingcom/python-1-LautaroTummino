@@ -14,8 +14,8 @@ def test_signo_positivo():
     """
     numero = 25
     resultado = signo(numero)
-    assert isinstance(resultado, str), "El resultado es una string"
-    assert resultado == "Positivo", "El resultado debe ser mayor a 0"
+    assert isinstance(resultado, int), "El resultado es una string"
+    assert resultado == 1, "El resultado debe ser mayor a 0"
 
 
 def test_signo_negativo():
@@ -25,8 +25,8 @@ def test_signo_negativo():
     """
     numero = -25
     resultado = signo(numero)
-    assert isinstance(resultado, str), "El resultado es una string"
-    assert resultado == "Negativo", "El resultado debe ser menor a 0"
+    assert isinstance(resultado, int), "El resultado es una string"
+    assert resultado == -1, "El resultado debe ser menor a 0"
 
 
 def test_signo_cero():
@@ -36,5 +36,5 @@ def test_signo_cero():
     """
     numero = 0
     resultado = signo(numero)
-    assert isinstance(resultado, str), "El resultado es una string"
-    assert resultado == "Cero", "El resultado debe ser igual a 0"
+    assert isinstance(resultado, int), "El resultado es una string"
+    assert resultado == 0, "El resultado debe ser igual a 0"

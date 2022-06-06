@@ -13,7 +13,7 @@ con factores primos de un numero entero positivo.
 def factores_primos(numero):
     """
     Esta función se encarga de determinar los factores primos de un número
-    Precondición : Ingrese un número
+    Precondición : Ingrese un número entero positivo
     Postcondición : Muestra una tupla con los factores primos del número
     """
     divisor = 2
