@@ -24,4 +24,4 @@ jobs:
         pylint --fail-under 2 -v $(git ls-files '*.py')
     - name: Ejecutando los tests con cobertura
       run: |
-        python -m pytest -v --cov=src
+        pytest -v --cov=src
