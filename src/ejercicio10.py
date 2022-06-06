@@ -19,11 +19,7 @@ def es_palindromo(texto):
     sin mayusculas ni acentos (palabra)
     Postcondición: Mostrar True si son palindromos, False si no lo son.
     """
-    
-    if str(texto) == str(texto)[::-1]:
-        return True
-    else:
-        return False
+    return str(texto) == str(texto)[::-1]
 
 
 def principal():
