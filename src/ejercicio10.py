@@ -16,10 +16,22 @@ def es_palindromo(texto):
     Esta función se encarga de determinar si un texto ingresado es un palindromo
     o si no lo es.
     Precondición: Ingresar una cadena de caracteres
-    sin mayusculas ni acentos (palabra)
-    Postcondición: Mostrar True si son palindromos, False si no lo son.
+    sin mayusculas ni acentos.
+    Postcondición: Mostrar True si es un palindromo, False si no.
     """
-    return str(texto) == str(texto)[::-1]
+    texto_dos = ""
+    texto_longi = len(texto)
+    n = 0
+    neg = -1
+    while n < len(texto):
+        if texto[n] == texto[neg]:
+            texto_dos = texto_dos + texto[neg]
+        n += 1
+        neg -= 1
+    if texto == texto_dos:
+        return True
+    else:
+        return False
 
 
 def principal():
