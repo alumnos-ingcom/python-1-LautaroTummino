@@ -11,6 +11,7 @@ Palíndromo, es si se lee igual
 de derecha a izquierda que de izquierda a derecha.
 """
 
+
 def es_palindromo(texto):
     """
     Esta función se encarga de determinar si un texto ingresado es un palindromo
@@ -20,7 +21,6 @@ def es_palindromo(texto):
     Postcondición: Mostrar True si es un palindromo, False si no.
     """
     texto_dos = ""
-    texto_longi = len(texto)
     n = 0
     neg = -1
     while n < len(texto):
